@@ -54,16 +54,17 @@ O objetivo é demonstrar, através do próprio código, a mesma qualidade espera
 .
 ├── app/
 ├── components/
+├── docs/
 ├── hooks/
 ├── lib/
 ├── types/
 ├── public/
 ├── references/
+├── sections/
 │
 ├── CLAUDE.md
 ├── AGENTS.md
-├── DESIGN.md
-├── PROJECT.md
+├── CONTEXT.md
 └── README.md
 ```
 
@@ -221,16 +222,16 @@ Essa convenção aproxima o projeto do padrão utilizado por equipes internacion
 * [x] Estrutura inicial
 * [x] Definição da arquitetura
 * [x] Design System
-* [ ] Hero
-* [ ] Sidebar
-* [ ] Timeline profissional
-* [ ] Projetos
-* [ ] Tecnologias
-* [ ] Contato
-* [ ] SEO
-* [ ] Dark Mode
-* [ ] Internacionalização
-* [ ] Geração de currículo em PDF
+* [x] Hero
+* [x] Sidebar
+* [x] Timeline profissional
+* [x] Projetos
+* [x] Tecnologias
+* [x] Contato
+* [x] SEO
+* [x] Dark Mode
+* [x] Internacionalização
+* [x] Geração de currículo em PDF
 
 ---
 

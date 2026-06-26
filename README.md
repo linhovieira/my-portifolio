@@ -38,7 +38,6 @@ O objetivo é demonstrar, através do próprio código, a mesma qualidade espera
 ## Interface
 
 * Lucide React
-* Framer Motion
 
 ## Qualidade
 

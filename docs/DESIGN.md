@@ -425,7 +425,7 @@ responsividade
 A foto principal deve utilizar:
 
 ```
-references/profile.jpg
+references/profile.png
 ```
 
 Características:

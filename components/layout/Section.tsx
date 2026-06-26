@@ -15,13 +15,16 @@ export function Section({
   return (
     <section
       id={id}
-      className={["py-12 scroll-mt-8", className].join(" ")}
+      className={["py-10 scroll-mt-8", className].join(" ")}
       {...props}
     >
       {title && (
-        <h2 className="text-xl font-display font-bold text-primary mb-8 tracking-tight">
-          {title}
-        </h2>
+        <div className="flex items-center gap-2 mb-6">
+          <div className="w-1 h-5 rounded-full bg-action shrink-0" aria-hidden="true" />
+          <h2 className="text-base font-display font-black text-primary uppercase tracking-[0.08em]">
+            {title}
+          </h2>
+        </div>
       )}
       {children}
     </section>

@@ -1,17 +1,21 @@
 export interface Profile {
-  name: string;
+  nameFirstLine: string;
+  nameSecondLine: string;
   title: string;
   tagline: string;
   summary: string;
+  summary2: string;
   avatarUrl: string;
 }
 
 export interface Stat {
   value: string;
   label: string;
+  icon: string;
 }
 
 export interface ContactLink {
+  title: string;
   label: string;
   href: string;
   icon: string;
@@ -21,6 +25,7 @@ export interface Experience {
   company: string;
   role: string;
   period: string;
+  employmentType?: string;
   description: string;
   technologies: string[];
   current?: boolean;
@@ -50,6 +55,11 @@ export type TechnologyCategory =
   | "devops"
   | "tool";
 
+export interface Skill {
+  name: string;
+  level: number;
+}
+
 export interface Education {
   institution: string;
   degree: string;
@@ -59,4 +69,11 @@ export interface Education {
 export interface Language {
   name: string;
   level: string;
+  percentage: number;
+}
+
+export interface Achievement {
+  title: string;
+  description: string;
+  icon: string;
 }

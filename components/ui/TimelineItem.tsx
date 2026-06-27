@@ -13,7 +13,7 @@ export function TimelineItem({ experience, isLast = false }: TimelineItemProps) 
       <div className="flex flex-col items-center">
         <div
           className={`
-            w-2.5 h-2.5 rounded-full shrink-0 mt-[18px]
+            w-2.5 h-2.5 rounded-full shrink-0 mt-4.5
             ${experience.current ? "bg-action ring-4 ring-action/20" : "bg-border"}
           `}
           aria-hidden="true"
@@ -53,7 +53,7 @@ export function TimelineItem({ experience, isLast = false }: TimelineItemProps) 
 
         <p className="text-xs font-semibold text-text-muted">{experience.company}</p>
 
-        <p className="text-sm text-text-muted leading-relaxed mt-0.5">
+        <p className="text-sm text-text-muted leading-relaxed mt-0.5 text-justify">
           {experience.description}
         </p>
 

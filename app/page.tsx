@@ -42,7 +42,7 @@ export default function HomePage() {
           <AchievementsSection />
         </FadeIn>
 
-        <footer className="py-8 text-xs text-text-muted border-t border-border mt-4">
+        <footer className="py-8 text-xs text-text-muted border-t border-border mt-4 text-justify">
           © {new Date().getFullYear()} Paulo Ricardo da Silva Vieira — Código é importante,
           mas entender o problema e{" "}
           <span className="text-action font-medium">entregar valor</span> é o que faz a diferença.

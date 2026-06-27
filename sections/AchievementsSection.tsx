@@ -41,7 +41,7 @@ export function AchievementsSection() {
                 <p className="text-sm font-display font-semibold text-primary leading-snug">
                   {achievement.title}
                 </p>
-                <p className="text-xs text-text-muted mt-0.5 leading-snug">
+                <p className="text-xs text-text-muted mt-0.5 leading-snug text-justify">
                   {achievement.description}
                 </p>
               </div>

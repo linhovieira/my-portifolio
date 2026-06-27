@@ -61,7 +61,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
         </div>
       </div>
 
-      <p className="text-sm text-text-muted leading-relaxed">
+      <p className="text-sm text-text-muted leading-relaxed text-justify">
         {project.description}
       </p>
 

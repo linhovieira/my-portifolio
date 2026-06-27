@@ -1,6 +1,6 @@
 {
   "name": "my-portifolio",
-  "version": "0.1.0",
+  "version": "1.0.1",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack --experimental-https --experimental-https-key ./.certificates/server-key.pem --experimental-https-cert ./.certificates/server.pem",

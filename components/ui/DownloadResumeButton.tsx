@@ -34,15 +34,16 @@ export function DownloadResumeButton() {
   return (
     <Button
       variant="secondary"
-      size="md"
+      size="lg"
       onClick={handleDownload}
       disabled={loading}
       aria-label="Baixar currículo em PDF"
+      className="w-full md:w-auto justify-center md:justify-start"
     >
       {loading ? (
-        <Loader2 size={14} className="animate-spin" aria-hidden="true" />
+        <Loader2 size={18} className="animate-spin" aria-hidden="true" />
       ) : (
-        <Download size={14} aria-hidden="true" />
+        <Download size={18} aria-hidden="true" />
       )}
       {loading ? "Gerando PDF..." : "Baixar currículo"}
     </Button>

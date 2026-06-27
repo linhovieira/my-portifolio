@@ -122,7 +122,7 @@ export function HeroSection() {
           </h1>
 
           {/* Badge de cargo */}
-          <div className="mt-3 inline-flex items-center px-3 py-1.5 rounded-full bg-action text-white text-sm font-semibold tracking-wide leading-none">
+          <div className="mt-3 inline-flex items-center px-3 py-1.5 rounded-full bg-action text-white text-xs sm:text-sm text-center font-semibold tracking-wide leading-none">
             {profile.title}
           </div>
         </div>
@@ -135,14 +135,14 @@ export function HeroSection() {
 
       {/* Contatos — linha 1: telefone / e-mail / endereço | linha 2: GitHub / LinkedIn */}
       <nav aria-label="Contatos" className="mb-8 flex flex-col gap-6">
-        <ul className="flex flex-wrap items-center gap-x-10 gap-y-1">
+        <ul className="flex flex-wrap items-center gap-x-10 gap-y-3">
           {basicContacts.map((item) => (
             <li key={item.icon}>
               <ContactItem item={item} />
             </li>
           ))}
         </ul>
-        <ul className="flex flex-wrap items-center gap-x-10 gap-y-1">
+        <ul className="flex flex-wrap items-center gap-x-10 gap-y-3">
           {socialContacts.map((item) => (
             <li key={item.icon}>
               <ContactItem item={item} />
@@ -157,10 +157,10 @@ export function HeroSection() {
       </p>
 
       {/* Botões CTA */}
-      <div className="flex flex-wrap gap-3 mb-8">
-        <a href="mailto:linho_017@hotmail.com" aria-label="Enviar e-mail para Paulo Vieira">
-          <Button variant="primary" size="md">
-            <Mail size={14} aria-hidden="true" />
+      <div className="w-full flex flex-wrap gap-3 mb-8 justify-center md:justify-start">
+        <a href="mailto:linho_017@hotmail.com" aria-label="Enviar e-mail para Paulo Vieira" className="w-full md:w-auto justify-center md:justify-start">
+          <Button variant="primary" size="lg" className="w-full md:w-auto justify-center md:justify-start">
+            <Mail size={18} aria-hidden="true" />
             Entrar em contato
           </Button>
         </a>
